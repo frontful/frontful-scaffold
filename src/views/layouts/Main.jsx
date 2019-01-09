@@ -2,7 +2,7 @@ import React from 'react'
 import {style} from 'frontful-style'
 
 @style(require('./Main.style'))
-export default class Main extends React.PureComponent {
+class Main extends React.PureComponent {
   render() {
     const {style, children} = this.props
 
@@ -13,3 +13,5 @@ export default class Main extends React.PureComponent {
     )
   }
 }
+
+export default Main

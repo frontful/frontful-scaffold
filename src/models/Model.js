@@ -7,5 +7,7 @@ import {model} from 'frontful-model'
 @model({
   value: '',
 })
-export class Model {
+class Model {
 }
+
+export {Model}

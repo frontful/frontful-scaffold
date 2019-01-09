@@ -9,7 +9,7 @@ import {style} from 'frontful-style'
   }))
 })
 @style(require('./Home.style'))
-export default class Home extends React.PureComponent {
+class Home extends React.PureComponent {
   render() {
     const {style, Component} = this.props
 
@@ -20,3 +20,5 @@ export default class Home extends React.PureComponent {
     )
   }
 }
+
+export default Home

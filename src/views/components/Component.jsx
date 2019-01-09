@@ -20,7 +20,7 @@ import {style} from 'frontful-style'
   }))
 })
 @style(require('./Component.style'))
-export default class Component extends React.PureComponent {
+class Component extends React.PureComponent {
   render() {
     const {style, value, changeValue, data} = this.props
 
@@ -34,3 +34,5 @@ export default class Component extends React.PureComponent {
     )
   }
 }
+
+export default Component
