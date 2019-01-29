@@ -1,5 +1,5 @@
 {
-  "name": "frontful-scaffold",
+  "name": "@frontful/frontful-scaffold",
   "version": "1.0.0",
   "description": "Scaffold on top of Frontful infrastructure",
   "private": true,
